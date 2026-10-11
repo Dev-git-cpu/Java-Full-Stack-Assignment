@@ -1,0 +1,45 @@
+
+Q1. What is the difference between SQL and MySQL?
+-> SQL stands for Structure Query Language,
+   It is a language that store, manage and retrieve data in relational database.
+-> MySQl is a Relational Database Management System (RDBMS) that use MYSQL.
+
+Q2. Explain primary key, foreign key, unique key, and composite key.
+-> Primary Key: Uniquely identify each rows, cannot be null.
+   Foreign Key: Connects table to another table.
+   Unique Key: Prevents duplicate values in a column or column combination.
+
+   Primary Key: CREATE TABLE department(
+                dept_id int PRIMARY KEY,
+                dept_name varchar(50)
+   );
+
+   Foreign Key: CREATE TABLE employee(
+                emp_id int PRIMARY KEY,
+                emp_name varchar(50),
+                dept_id int,
+                FOREIGN KEY(dept_id) REFERENCE department(dept_id)
+   ),
+
+Q3. What are the different types of JOINs in SQL? Explain each with a small example.
+-> Their are four types of JOINs in SQL.
+   i. Left Join
+   -> Left Join print all rows from left table and matching data from right table.
+   ii. Right Join
+   -> Right Joins print all rows from right table and matching data from left table.
+   iii. Inner Join
+   -> Inner Join print only matching data from both tables.
+   vi. Full Outer Join
+   -> Full Outer Join print all data from both tables.
+
+Q4. Differentiate DELETE, TRUNCATE, and DROP.
+->  DELETE	-> Removes selected rows using WHERE, or all rows without it
+    TRUNCATE	-> Removes all rows while keeping the table structure
+    DROP	-> Removes the table structure and its data
+
+Q5. Explain database normalization.
+Normalization reduces redundant data and helps avoid data inconsistencies.
+- 1NF: Each column contains atomic values; no repeating groups.
+- 2NF: In 1NF, and every non-key attribute depends on the whole candidate key.
+- 3NF: In 2NF, and non-key attributes do not depend transitively on a candidate key.
+

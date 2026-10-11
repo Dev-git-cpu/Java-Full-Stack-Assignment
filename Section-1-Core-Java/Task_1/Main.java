@@ -1,6 +1,6 @@
 
 class Employee{
-    
+
 }
 
 public class Main{
