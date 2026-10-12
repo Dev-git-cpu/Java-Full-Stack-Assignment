@@ -1,0 +1,51 @@
+
+Q1. Explain the phases of SDLC.
+->  SDLC stands for Software Development Life Cycle. It is a process used to develop and maintain software.
+    1. Planning: Decide project goals, budget, and timeline.
+    2. Analysis: Understand customer requirements.
+    3. Designing: Design the software and database.
+    4. Coding: Write the program.
+    5. Testing: Find and fix errors.
+    6. Deployment: Release software to users.
+    7. Maintenance: Fix bugs and improve software.
+
+
+Q2. Explain the Waterfall model with advantages and disadvantages.
+->  Waterfall is a software development model in which each phase is completed before the next phase begins.
+    Advantages:
+    - Easy to understand and manage.
+    - Clear phases and documentation.
+    Disadvantages:
+    - Changes are difficult later.
+    - Testing happens relatively late.
+
+
+Q3. Differentiate between Agile and Waterfall.
+ ->   Agile
+    Development happens in iterations.
+    Changes are easier to handle.
+    Feedback is collected frequently.
+    Testing happens throughout iterations.
+
+ ->   Waterfall
+    Development follows sequential phases.
+    Changes are difficult later.
+    Feedback is usually collected at specific stages.
+    Testing generally follows implementation.
+
+Q4. Differentiate between Verification and Validation.
+->  - Verification: Are we building the product correctly? It checks whether the software follows specifications.
+    - Validation: Are we building the correct product? It checks whether the software meets user needs.
+    Example: Reviewing a design is verification; checking whether a login feature works as expected is validation.
+
+Q5. Explain Black-box and White-box testing.
+->  Black-box testing: Tests software functionality without examining the internal code.
+    Example: Testing login with valid and invalid passwords.
+    White-box testing: Tests the internal code, logic, and execution paths.
+    Example: Testing both branches of an if-else statement.
+
+Q6. Explain the types of software testing.
+->  1. Unit Testing: Tests individual methods or components.
+    2. Integration Testing: Checks whether different components work together.
+    3. System Testing: Tests the complete application.
+    4. User Acceptance Testing (UAT): Checks whether the software meets user requirements.
