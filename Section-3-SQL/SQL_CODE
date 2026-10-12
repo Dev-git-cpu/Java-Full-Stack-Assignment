@@ -82,11 +82,27 @@ Task 2: Design a small database schema for a Library Management System with: Boo
        (101,"DEV"),
        (102,"RAM");
 
+       Issue a book
+
        INSERT INTO Loans VALUES
        (1001,1,101,'2026-10-11','2026-10-20'),
        (1002,2,102,'2026-10-01',NULL);
 
+       SELECT * FROM Books;
+
+       Return a book
+
+       UPDATE Loans
+       SET return_date = CURRENT_DATE
+       WHERE loan_id = 1003
+       AND return_date IS NULL;
+
+       List overdue books
        
+       SELECT *
+       FROM Loans
+       WHERE due_date < CURRENT_DATE
+       AND return_date IS NULL;
 
 
 
