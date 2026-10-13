@@ -1,0 +1,46 @@
+
+Q1. What are the new features introduced in HTML5? List any 5.
+->  1. Semantic Tags: New tags like <header>, <footer>, and <article> define page structure.
+    2. Audio and Video: <audio> and <video> tags play media without external plugins.
+    3. Canvas: The <canvas> tag is used to draw graphics.
+    4. Form Enhancements: New input types like email, date, and number are introduced.
+    5. Web Storage: localStorage and sessionStorage store data in the browser.
+
+Q2. Explain the CSS Box Model with a diagram (or description).
+->  The CSS Box Model explains how space is arranged around an HTML element. It has four parts:
+    1. Content: The actual text or image.
+    2. Padding: Space between the content and border.
+    3. Border: The line around the content and padding.
+    4. Margin: Space outside the border.
+
+    Diagram: Content → Padding → Border → Margin
+
+    Example:- div {
+                padding: 10px;
+                border: 2px solid black;
+                margin: 20px;
+              }
+
+Q3. What is the difference between var, let, and const in JavaScript?
+- var: Used to declare a variable. It can be updated and declared again in the same scope.
+- let: Used to declare a variable that can be updated but not declared again in the same scope.
+- const: Used to declare a variable that cannot be reassigned.
+
+
+Q4. What is AJAX? How does it work? Where is it used in real applications?
+->  AJAX stands for Asynchronous JavaScript and XML.
+    It allows a webpage to send and receive data from a server without reloading the whole page.
+    How it works:
+    1. The user performs an action.
+    2. JavaScript sends a request to the server.
+    3. The server sends back the response.
+    4. The webpage updates the required part.
+    Uses: AJAX is used in search suggestions, chat applications, and shopping carts to update data without reloading the page.
+
+Q5. What is jQuery? Why is it popular? Give 3 common jQuery methods.
+->  jQuery is a JavaScript library that makes it easier to work with HTML elements, events, and animations.
+    It is popular because it requires less code and makes common JavaScript tasks easier.
+    Three common methods:
+    1. hide() – Hides an element.
+    2. show() – Displays an element.
+    3. click() – Handles a click event.

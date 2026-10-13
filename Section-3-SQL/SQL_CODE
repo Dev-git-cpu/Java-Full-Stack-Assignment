@@ -98,7 +98,7 @@ Task 2: Design a small database schema for a Library Management System with: Boo
        AND return_date IS NULL;
 
        List overdue books
-       
+
        SELECT *
        FROM Loans
        WHERE due_date < CURRENT_DATE
