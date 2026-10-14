@@ -1,0 +1,38 @@
+Q1. What is JDBC? Explain the steps to connect Java with a database.
+JDBC (Java Database Connectivity): JDBC is a Java API used to connect Java applications with databases and perform database operations like insert, update, delete and fetch data.
+Steps to connect Java with a database:
+1. Import JDBC packages.
+2. Establish a database connection.
+3. Create a statement.
+4. Execute the SQL query.
+5. Process the result.
+6. Close the connection.
+
+
+Q2. What is a Servlet? Explain its life cycle.
+Servlet: A Servlet is a Java program that runs on a server, handles requests from a web browser and sends responses back. It is used to create dynamic web pages and works inside a web server or servlet container like Tomcat.
+Servlet life cycle: It describes how a Servlet is created, works and is removed from memory.
+- init() – Called once when the Servlet is initialized.
+- service() – Handles incoming requests and calls methods such as doGet() or doPost() in an HttpServlet.
+- destroy() – Called before the Servlet is taken out of service.
+Working: Browser sends a request → Servlet processes it → Server sends a response back.
+
+
+Q3. What is JSP? How is it different from a Servlet?
+JSP (JavaServer Pages): JSP is a Java technology used to create dynamic web pages by combining HTML with Java-related features.
+Why is JSP different from a Servlet?
+JSP is mainly used to design the user interface, while a Servlet is mainly used to handle requests and process application logic.
+JSP makes writing HTML easier, whereas a Servlet uses Java code to generate the response.
+A JSP page is translated into a Servlet by the server.
+
+
+Q4. Explain Statement, PreparedStatement and CallableStatement.
+- Statement: Used to execute simple SQL queries written directly in Java.
+- PreparedStatement: Used to execute parameterized SQL queries. It helps prevent SQL injection when used correctly.
+- CallableStatement: Used to call stored procedures in the database.
+Q5. What is session tracking? Explain HttpSession.
+
+
+Session tracking: It is a technique used to maintain user information across multiple requests because HTTP is stateless.
+Common methods include cookies, HttpSession, URL rewriting and hidden form fields.
+HttpSession: It stores user-specific data on the server across multiple requests.
